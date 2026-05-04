@@ -25,7 +25,7 @@ A small Python automation project that retrieves the real-time position of the I
 ## Project Structure
 
 ```text
-iss-tracking-data-logger/
+iss-tracking-data-logger
 │
 ├── main.py
 ├── sample_iss_tracking_data.csv
