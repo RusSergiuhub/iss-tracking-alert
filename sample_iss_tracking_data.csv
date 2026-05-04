@@ -1,0 +1,4 @@
+timestamp,iss_latitude,iss_longitude,user_latitude,user_longitude,is_overhead,email_sent
+2026-05-04 21:35:00,12.44,84.11,40.701731,20.592041,False,False
+2026-05-04 21:36:00,13.02,85.55,40.701731,20.592041,False,False
+2026-05-04 21:37:00,46.95,23.20,40.701731,20.592041,True,True
