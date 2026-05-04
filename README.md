@@ -30,5 +30,5 @@ iss-tracking-data-logger/
 ├── main.py
 ├── README.md
 ├── .gitignore
+├── sample_iss_tracking_data.csv
 └── sample_code_log.txt
-└── sample_iss_tracking_data.csv
