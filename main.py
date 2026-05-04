@@ -21,10 +21,7 @@ def log_progress(message):
 
 def get_iss_data():
     try:
-        response = requests.get(
-            url="http://api.open-notify.org/iss-now.json",
-            timeout=10
-        )
+        response = requests.get(url="http://api.open-notify.org/iss-now.json",timeout=10)
         response.raise_for_status()
 
         data = response.json()
@@ -75,12 +72,7 @@ def send_email_alert():
         connection.starttls()
         connection.login(my_email, my_pass)
 
-        connection.sendmail(
-            from_addr=my_email,
-            to_addrs=my_email,
-            msg="Subject: ISS Alert\n\nLook up! The ISS is above your location."
-        )
-
+        connection.sendmail(from_addr=my_email,to_addrs=my_email,msg="Subject: ISS Alert\n\nLook up! The ISS is above your location.")
         connection.close()
 
         log_progress("Alert System Online -> Email sent")
