@@ -1,0 +1,6 @@
+2026-05-04 21:35:00 : Initiating ISS Tracking System
+2026-05-04 21:35:01 : ISS position checked: lat=12.44, long=84.11
+2026-05-04 21:35:01 : ISS is not over our heads
+2026-05-04 21:35:01 : ISS tracking data saved to CSV
+2026-05-04 21:37:01 : The ISS is over our heads!
+2026-05-04 21:37:02 : Alert System Online -> Email sent
