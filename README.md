@@ -28,7 +28,5 @@ A small Python automation project that retrieves the real-time position of the I
 iss-tracking-data-logger/
 │
 ├── main.py
-├── README.md
-├── .gitignore
 ├── sample_iss_tracking_data.csv
 └── sample_code_log.txt
